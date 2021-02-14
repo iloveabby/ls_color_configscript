@@ -24,7 +24,7 @@ print('Welcome to johnson ls color config!')
 
 print('Choose Directory colors')
 
-user = input(''1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White'') #this is where the user gives their input.
+user = input('1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White') #this is where the user gives their input.
 
 if user == '1':  # All of these blocks are the code that checks the user input and puts 
     write1 = open(rcs,'a')
@@ -53,7 +53,7 @@ elif user == '6':
 else:
     print('Invaild input')
 print('Choose file colors')
-user = input(''1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White'')
+user = input('1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White')
 
 
 if user == '1':
@@ -84,7 +84,7 @@ else:
     print('Invaild input')
 
 print('Change executable colors ')
-user = input(''1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White'')
+user = input('1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White')
 
 
 if user == '1':
@@ -114,7 +114,7 @@ elif user == '6':
 else:
     print('Invaild input')
 print('Change block device colors')
-user = input(''1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White'')
+user = input('1 Green .2 Red 3 Cyan .4 Blue .5 Yellow .6 White')
 
 if user == '1':
     write1 = open(rcs,'a')
